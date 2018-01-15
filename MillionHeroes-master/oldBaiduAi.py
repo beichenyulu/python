@@ -1,7 +1,7 @@
 def getBaiduAcc_token():
 	grant_type = 'client_credentials'
-	client_id ='VgVx1a9WdnMog65AhvlNhpta'
-	client_secret = '8mAAeMiKV8wyMlh83V6jyc7RQGawoExE'
+	client_id ='*******'
+	client_secret = '*******'
 	host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=%s&client_id=%s&client_secret=%s'%(grant_type,client_id,client_secret)
 	request = urllib2.Request(host)
 	request.add_header('Content-Type', 'application/json; charset=UTF-8')
