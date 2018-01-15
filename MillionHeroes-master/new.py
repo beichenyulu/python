@@ -10,9 +10,9 @@ def CheckPhone():
 
 """ 你的 APPID AK SK 等参数"""
 class BaiDuApi():
-	APP_ID = '10674400'
-	API_KEY = 'VgVx1a9WdnMog65AhvlNhpta'
-	SECRET_KEY = '8mAAeMiKV8wyMlh83V6jyc7RQGawoExE'
+	APP_ID = '*******'
+	API_KEY = '*******'
+	SECRET_KEY = '*******'
 	options = {}
 	options["language_type"] = "CHN_ENG"
 	options["detect_direction"] = "true"
